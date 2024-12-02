@@ -21,6 +21,12 @@ function Footer() {
           {" "}
           <span className="icon-youtube-play bg-red-500 rounded-md p-1"></span>{" "}
         </button>
+        <button>
+          {" "}
+          <a href="http://wa.me/+2349134034538">
+            <span className="icon-whatsapp bg-green-500 rounded-md p-1"></span>{" "}
+          </a>
+        </button>
       </div>
     </div>
   );

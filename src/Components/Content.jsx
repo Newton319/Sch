@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import student from "../assets/student.jpg";
 function Content() {
   return (
     <div className="flex shadow-md ">
-      <div className=" flex-1 flex w-full ">
+      <div className=" flex-1 hidden md:flex w-full ">
         <img src={student} alt="student" />
       </div>
       <div className="flex-1   bg-slate-200 py-11">
@@ -15,7 +16,10 @@ function Content() {
           pellentesque dui, non felis. Maecenas malesuada elite lectus.
         </p>
         <b className="justify-around items-end">
-          <button className="bg-red-500 p-2"> Learn more </button>
+          <Link to="/Aboutus" className="bg-red-500 p-2">
+            {" "}
+            Learn more{" "}
+          </Link>
         </b>
       </div>
     </div>
