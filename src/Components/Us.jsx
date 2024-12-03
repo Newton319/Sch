@@ -62,7 +62,7 @@ function Us() {
           <li>Emotional Intelligence and Well-being</li>
         </ul>
       </div>
-      <div>
+      <div className="shadow-md">
         <p className="text-3xl p-4"> OUR VISION </p>
         To be a leading institution that prepares students for success in an
         ever-changing world, while cultivating a love of learning that
@@ -75,7 +75,9 @@ function Us() {
           better
         </p>
         <a href="http://wa.me/+2349134034538">
-          <button className="bg-blue-400 p-2 rounded-md ">Contact us</button>{" "}
+          <button className="bg-blue-400 p-2 rounded-md ">
+            Contact Admin{" "}
+          </button>{" "}
         </a>
       </div>
     </div>

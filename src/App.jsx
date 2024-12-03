@@ -1,7 +1,7 @@
 import "./App.css";
 import Us from "./Components/Us";
 import Cus from "./Components/Cus";
-import Teacher from "./Components/Teacher";
+
 import Class from "./Components/Class";
 import Menu from "./Components/Menu";
 import Footer from "./Components/Footer";
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Aboutus" element={<Us />} />
         <Route path="/Classes" element={<Class />} />
-        <Route path="/Teachers" element={<Teacher />} />
+
         <Route path="/Contactus" element={<Cus />} />
       </Routes>
       <Footer />

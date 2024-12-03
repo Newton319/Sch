@@ -35,11 +35,7 @@ function Menu() {
               Classes
             </Link>
           </span>
-          <span className="menu">
-            <Link to="/Teacher" className="menu_a">
-              Teachers
-            </Link>
-          </span>
+
           <span className="menu">
             <Link to="/Contactus" className="menu_a">
               Contact us
